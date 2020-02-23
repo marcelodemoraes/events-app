@@ -1,0 +1,81 @@
+.form-input {
+  margin: 10px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: solid 1px #c0c0c0;
+}
+
+.input-block > label {
+  display: inline-block;
+  min-width: 100px;
+}
+
+.errorMsg {
+  color: red;
+}
+
+.event-card {
+  border: solid 1px #dadada;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-card:hover {
+  box-shadow: 0 0 10px #c7c7c7;
+  transform: scale(1.01);
+}
+
+#event-menu {
+  width: 50vh;
+}
+
+#event-list {
+  border-left: solid 1px #c7c7c7;
+  padding-left: 50px;
+  margin: 0 0 0 50px;
+  width: 50vh;
+}
+
+#list-main {
+  display: flex;
+  margin: 10px 40px;
+}
+
+#text-input {
+  width: 270px;
+}
+
+.event-button {
+  float: right;
+  margin: 0 0 0 7px;
+}
+
+#event-delete-button {
+  background-color: #ff8989;
+  color: black;
+}
+
+#register-button {
+  margin: 0 0 0 20px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 10px;
+  border: solid 1px #c0c0c0;
+  min-width: 100px;
+}
+
+button:hover {
+  box-shadow: 0 0 10px #c0c0c0;
+}
+
+hr {
+  color: #f0f0f0;
+  margin: 40px 10px;
+}
